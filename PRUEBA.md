@@ -7,7 +7,7 @@ A continuación se detallan los valores obtenidos directamente del equipo certif
 
 | Punto de Red | Ubicación | Resultado (PASS/FAIL) | Longitud (m) | BERT (Errores) | SNR Promedio |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **CABLE009** | PUNTO_21 | **PASS** | 19.2 m | 0 errores | 30.1 dB |
+| **CABLE009** | PUNTO_20 | **PASS** | 19.2 m | 0 errores | 30.1 dB |
 | **CABLE006** | PUNTO_19 | **PASS** | 18.9 m | 0 errores | 29.6 dB |
 | **CABLE010** | PUNTO_18 | **FAIL** | 18.8 m | **FAIL** | 29.5 dB |
 
@@ -22,15 +22,22 @@ A continuación se detallan los valores obtenidos directamente del equipo certif
 
 
 ## 3. Verificación de Capa Lógica
-En los puntos con resultado **PASS** (PUNTO_21 y PUNTO_19), se utilizó la función de **Prueba de DHCP/Ping** de la certificadora para validar que, tras asegurar la integridad física, la red es capaz de asignar una dirección IP y responder a comandos de eco, garantizando la operatividad total del nodo.
+En los puntos con resultado **PASS** (PUNTO_21 y PUNTO_19), se utilizó la función de **Prueba de DHCP/Ping** de la certificadora para validar que, tras asegurar la integridad física, la red es capaz de asignar una dirección IP y responder a comandos de eco, garantizando la operatividad total del nodo. 
 
-## 4. Evidencia Fotográfica de Mediciones
+---
+
+  ##                                 4. Evidencia Fotográfica de Mediciones
 
 A continuación, se adjuntan las capturas de pantalla obtenidas directamente del equipo **NetChaser TNC950** para cada punto de red testeado:
+## Prueba en el puerto 19, modulo hermbra rj45, conectividad sin errores 
 <img width="739" height="1600" alt="WhatsApp Image 2026-04-21 at 19 40 35" src="https://github.com/user-attachments/assets/ca441125-12c9-48c1-9f5e-6bcdd5148d1a" />
 
+---
+## Prueba en el puerto 20, modulo hembra rj45, conectividad sin errores 
 <img width="739" height="1600" alt="WhatsApp Image 2026-04-21 at 19 40 36" src="https://github.com/user-attachments/assets/7a21b8b3-ad3f-497f-a7ac-1b2af794cf62" />
 
+---
+## Prueba en el puerto 21, modulo hembra rj45 aqui presentamos los primeras errores ya que los pines tenian conectividad pero arrojaban un error " bert fail " que eran perdidas de paquete, tambien el tester apunto al los posibles causantes siendo los pares 5y6 o 7y8 en , esto puede ocurrir por una mala mantencion de los cables o bien el conectores podrian poseer algun defecto 
 <img width="739" height="1600" alt="WhatsApp Image 2026-04-21 at 19 40 37" src="https://github.com/user-attachments/assets/a154f96a-1bc9-4b13-9d5d-368beb7549b9" />
 
 
