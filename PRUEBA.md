@@ -27,10 +27,13 @@ En los puntos con resultado **PASS** (PUNTO_21 y PUNTO_19), se utilizó la funci
 ## 4. Evidencia Fotográfica de Mediciones
 
 A continuación, se adjuntan las capturas de pantalla obtenidas directamente del equipo **NetChaser TNC950** para cada punto de red testeado:
-<img width="739" height="1600" alt="WhatsApp Image 2026-04-21 at 19 40 35" src="https://github.com/user-attachments/assets/ca441125-12c9-48c1-9f5e-6bcdd5148d1a" />
 
+## prueba en el puerto 18, se encuentra habilitado entrada rj45 no se presentaron inconvenientes 
+<img width="739" height="1600" alt="WhatsApp Image 2026-04-21 at 19 40 35" src="https://github.com/user-attachments/assets/ca441125-12c9-48c1-9f5e-6bcdd5148d1a" /> 
+
+## prueba en el puertro 19, se encuentra habilitado entrada rj45 no se presentaron incovenientes
 <img width="739" height="1600" alt="WhatsApp Image 2026-04-21 at 19 40 36" src="https://github.com/user-attachments/assets/7a21b8b3-ad3f-497f-a7ac-1b2af794cf62" />
-
+## prueba en el puerto 20,
 <img width="739" height="1600" alt="WhatsApp Image 2026-04-21 at 19 40 37" src="https://github.com/user-attachments/assets/a154f96a-1bc9-4b13-9d5d-368beb7549b9" />
 
 
